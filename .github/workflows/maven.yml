@@ -36,5 +36,6 @@ jobs:
       with:
         image: dkrinitsyn/edu-twitter-reader
         registry: docker.io
+        labels: [latest]
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
